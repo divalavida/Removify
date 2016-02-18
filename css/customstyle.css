@@ -1,0 +1,107 @@
+/*
+TOP PAGE
+*/
+
+
+
+h1,h2,p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+body {
+	text-align: center;
+	padding-top: 16px;
+}
+
+.spotify-logo {
+	width: 128px;
+}
+
+h2 {
+	font-weight: 100;
+}
+
+main {
+	border-bottom: 1px solid black;
+}
+
+.black-line {
+	margin-top: .5em;
+	height: 2px;
+	background-color: black;
+	width: 100%;
+}
+
+ul {
+	margin-top: 3em;
+	padding: 0;
+}
+
+
+li {
+  display: inline;
+  padding: 0 12px;
+  border-right:solid 1px;
+  margin-top: 3em;
+}
+
+#enjoy {
+	border-right: none;
+}
+
+.title {
+	margin-bottom: 3em;
+}
+
+.black-box {
+	background: #333333;
+	border: 17px solid #272827;
+	color: white;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 45px 0;
+}
+
+#album-cover {
+	text-align: left;
+	padding-left: 2em;
+	border-radius: 50%;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+#album-title,
+#artist-name {
+	padding-left: 13em;
+	vertical-align: text-bottom;
+}
+
+
+#album-title{
+	font-size: 27px;
+	font-weight: bold;
+}
+
+#artist-name {
+	float: none;
+	font-size: 20px;
+	font-weight: none;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	color:navy;
+	text-decoration: none;
+}
+
+
