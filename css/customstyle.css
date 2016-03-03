@@ -5,6 +5,8 @@ body {
 	text-align: center;
 	padding-top: 16px;
 	font-family: 'Montserrat', sans-serif;
+	background-color: #272827;
+	color: white;
 }
 
 a:link {
@@ -31,13 +33,14 @@ main {
 .black-line {
 	margin-top: .5em;
 	height: 2px;
-	background-color: black;
+	background-color: white;
 	width: 100%;
 }
 
 h1 {
 	font-weight: bold;
 	margin-top: 1em;
+	color:white;
 }
 
 h2 {
@@ -59,6 +62,11 @@ li {
   padding: 0 12px;
   border-right:solid 1px;
   margin-top: 2.5em;
+}
+
+.boldli {
+	font-weight: bolder;
+	font-size: 1.3em;
 }
 
 #li3 {
@@ -101,7 +109,7 @@ form {
 #album-title{
 	font-size: 27px;
 	font-weight: bold;
-	padding-top: 6.3em;
+	padding-top: 4.3em;
 }
 
 #artist-name {
@@ -114,7 +122,7 @@ form {
 
 .remove-button {
 	float: none;
-	margin-top: 2.5em;
+	margin-top: 1em;
 	text-align: center;		
 }
 
