@@ -1,29 +1,27 @@
 /*
-TOP PAGE
+general
 */
-
-
-
-h1,h2,p,form {
-	font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-	font-weight: bold;
-	margin-top: 1em;
-}
-
 body {
 	text-align: center;
 	padding-top: 16px;
+	font-family: 'Montserrat', sans-serif;
 }
 
+a:link {
+	color: black;
+}
+
+a:hover {
+	color:navy;
+	text-decoration: none;
+}
+
+
+/*
+header
+*/
 .spotify-logo {
 	width: 128px;
-}
-
-h2 {
-	font-weight: 100;
 }
 
 main {
@@ -35,6 +33,19 @@ main {
 	height: 2px;
 	background-color: black;
 	width: 100%;
+}
+
+h1 {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+h2 {
+	font-weight: 100;
+}
+
+h3 {
+	color:red;
 }
 
 ul {
@@ -50,12 +61,15 @@ li {
   margin-top: 2.5em;
 }
 
-#enjoy {
+#li3 {
 	border-right: none;
 }
 
-.title {
-	margin-bottom: 3em;
+/*
+ChoseAlbum.html
+*/
+form {
+	padding-bottom: 2em;
 }
 
 .black-box {
@@ -64,9 +78,8 @@ li {
 	color: white;
 	max-width: 700px;
 	margin: 0 auto;
-	padding: 45px 0;
 	float:none;
-	min-height: 500px;
+	min-height: 400px;
 }
 
 #album-cover {
@@ -74,10 +87,7 @@ li {
 	padding-left: 2em;
 	border-radius: 50%;
 	float:left;
-	padding-top: 50px; 
-}
-
-.img-circle {
+	padding-top: 35px; 
 	border-radius: 50%;
 }
 
@@ -100,17 +110,46 @@ li {
 	font-weight: none;
 }
 
-a:link {
-	color: black;
+
+
+.remove-button {
+	float: none;
+	margin-top: 2.5em;
+	text-align: center;		
 }
 
-a:hover {
-	color:navy;
-	text-decoration: none;
+/*
+albumremove.html
+*/
+
+.three-rows {
+	background: #272827;
+	border: .4em solid #333333;
+	color: white;
+	max-width: 700px;
+	margin: 0 auto;
+	float:none;
+	min-height: 50px;
 }
 
-form {
-	padding-bottom: 2em;
+.confirm-content {
+	text-align: left;
 }
+
+.confirm-content p {
+	padding-left: 7%;
+	margin: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
