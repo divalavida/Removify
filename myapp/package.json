@@ -1,0 +1,15 @@
+{
+  "name": "Removify",
+  "version": "0.0.0",
+  "description": "Remove tracks from multiple playlists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diva Hurtado <divamhurtado@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.4",
+    "ejs": "~2.4.1"
+  }
+}

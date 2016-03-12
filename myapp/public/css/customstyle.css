@@ -132,12 +132,12 @@ albumremove.html
 
 .three-rows {
 	background: #272827;
-	border: .4em solid #333333;
 	color: white;
 	max-width: 700px;
 	margin: 0 auto;
 	float:none;
 	min-height: 50px;
+	text-indent: 16%;
 }
 
 .confirm-content {
@@ -145,7 +145,7 @@ albumremove.html
 }
 
 .confirm-content p {
-	padding-left: 7%;
+	padding-left: 18%;
 	margin: 2em;
 }
 
