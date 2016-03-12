@@ -9,7 +9,13 @@
   "author": "Diva Hurtado <divamhurtado@gmail.com>",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "express": "~4.13.4",
-    "ejs": "~2.4.1"
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "html": "0.0.10",
+    "passport": "^0.3.2",
+    "passport-spotify": "^0.3.0"
   }
 }
