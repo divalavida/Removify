@@ -34,6 +34,7 @@ passport.use(
     },
     function (accessToken, refreshToken, profile, done) {
         tokens[profile.id] = accessToken;
+        console.log (accessToken);
         return done(null, profile);
     })
 );
@@ -63,7 +64,9 @@ function ensureAuthenticated(req, res, next) {
 }
 
 app.get('/prompt', ensureAuthenticated, function (req, res) {
-    res.end('hi lol, what would you like to delete lol? user:' + req.user.displayName);
+    res.end('You are user:' + req.user.displayName);
+    // set route handler
+    // res.render template
 });
 
 app.get('/login', 
@@ -79,3 +82,5 @@ app.get('/callback',
         res.redirect('/prompt');
     }
 );
+
+
