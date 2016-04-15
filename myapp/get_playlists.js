@@ -11,7 +11,7 @@ function getPlaylists (id, accessToken, callback) {
 	    json: true
 	}
 	request.get (options,function (error, response, body){
-		console.log ("type of body", typeof body);
+		console.log(body);
 		callback (error, body.items);
 	});
 }

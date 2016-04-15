@@ -7,7 +7,7 @@ var request = require('request');
 module.exports = getOnePlaylist
 
 
-function getOnePlaylist(playlistId, userId, accessToken, callback) {
+function getOnePlaylist(playlistId, userId, accessToken, callback, extra) {
 	var options = {
 		url:'https://api.spotify.com/v1/users/' + userId + '/playlists/' + playlistId +'/tracks',
 		headers: {
@@ -16,7 +16,7 @@ function getOnePlaylist(playlistId, userId, accessToken, callback) {
 	    json: true
 	};
 	request.get (options, function (error, response, body){
-		callback (error,body);
+		callback (error,body, extra);
 	});
 }
 
